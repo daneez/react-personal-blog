@@ -33,8 +33,8 @@ class App extends React.Component {
 
     return (
       <div className="app">
+        <Nav currentPage={currentPage} changePage={this.changePage} />
         <div className="container">
-          <Nav currentPage={currentPage} changePage={this.changePage} />
           <Pages currentPage={currentPage} />
           <Footer />
         </div>

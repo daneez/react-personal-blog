@@ -11,7 +11,7 @@
 .navbar__item::after {
   content: "";  
   width: 0;
-  border-bottom: 3px solid #7133B3;
+  border-bottom: 3px solid #9fa0ff;
   margin: auto;
   margin-top: 4px;
   display: block;
@@ -29,5 +29,5 @@
 }
 
 .navbar__item:last-of-type {
-  padding-right: 0;
+  padding-right: 32px;
 }

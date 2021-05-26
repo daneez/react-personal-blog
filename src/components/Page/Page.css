@@ -6,7 +6,7 @@
   right: 0;
   visibility: hidden;
   opacity: 0;
-  border-radius: 16px;
+  border-radius: 0 0 16px 16px;
   background: white;
   transition: visibility 0.3s, opacity 0.3s ease-in-out;
   box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
@@ -20,14 +20,16 @@
 }
 
 .page__header {
-  padding: 32px 64px;
-  background-color: #7133B3;
+  padding: 32px;
+  /* background-color: #EBEBEB; */
+  margin-top: 36px;
+  /* height: 300px; */
   color: white;
-  /* background-image: url(./assets/main_bg.png); */
-  background-size: cover;
+  /* background-image: url(./assets/simplicity.jpg); */
+  background-size: contain;
   background-repeat: no-repeat;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  /* border-top-left-radius: 16px;
+  border-top-right-radius: 16px; */
 }
 
 .page__content {

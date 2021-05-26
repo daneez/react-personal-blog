@@ -1,5 +1,5 @@
 .services__titleHightLight {
-  color: #7133B3;
+  color: #9fa0ff;
 }
 
 .services {
@@ -25,7 +25,16 @@
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 100%;
 }
-
+.serviceItem__imageContainer:hover {
+  -webkit-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+  transform: translateY(-7px);
+  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+}
 .serviceItem__image {
   width:55px;
 }

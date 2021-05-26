@@ -26,14 +26,18 @@
   padding: 16px 20px;
   border-radius: 4px;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  border-left: 2px solid #7133B3;
+  border-left: 2px solid #9fa0ff;
   margin-left: -5px;
+}
+
+.timeline:hover {
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
 }
 
 .timeline::before {
   content: "";
   width: 48px;
-  border-bottom: 2px solid #7133B3;
+  border-bottom: 2px solid #9fa0ff;
   position: absolute;
   left: -48px;
   top: 8px;
@@ -46,7 +50,7 @@
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  border: 2px solid #7133B3;
+  border: 2px solid #9fa0ff;
   top: 2px;
   background: white;
 }
@@ -61,7 +65,7 @@
 }
 
 .experience__year {
-  color: #7133B3;
+  color: #9fa0ff;
 }
 
 .experience__divider {
@@ -81,7 +85,7 @@
 }
 
 .resumeSub__titleHighlight {
-  color: #7133B3;
+  color: #9fa0ff;
 }
 
 .skill {
@@ -105,7 +109,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #7133B3;
+  background-color: #9fa0ff;
 }
 
 .skill__level--webDesign:after {

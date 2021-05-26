@@ -6,3 +6,13 @@
 .homepage__content > div {
   flex-basis: calc(50% - 32px);
 }
+
+.homepage__header {
+  background-color: #EBEBEB;
+  /* height: 300px; */
+  /* background-size: contain; */
+}
+
+.homepage__header-img {
+  height: 300px;
+}
