@@ -1,0 +1,19 @@
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1px auto;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: rgb(226, 226, 226);
+  border-style: solid;
+  width: 240px;
+  font-size: 16px;
+}
+
+.blog-text {
+  font-size: 22px;
+  line-height: 1.8;
+  text-align: center;
+}

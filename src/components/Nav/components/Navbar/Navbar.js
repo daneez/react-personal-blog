@@ -11,6 +11,9 @@ const ITEMS = [{
 }, {
   key: PAGE.SERVICES,
   text: 'Service',
+}, {
+  key: PAGE.PORTFOLIOS,
+  text: 'Portfolio',
 }];
 
 const Navbar = ({currentPage, changePage,}) => (

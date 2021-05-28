@@ -7,7 +7,7 @@ const AboutMe = () => (
       <span className="homepage__aboutMeHeaderHighlight"> Me</span>
     </h3>
     <div className="homepage__aboutMeContent">
-      Web Developer
+      Thinker/ Questioner/ INTP
     </div>
   </div>
 );

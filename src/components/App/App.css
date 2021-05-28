@@ -1,7 +1,7 @@
 .container {
   max-width: 1500px;
   margin: auto;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }

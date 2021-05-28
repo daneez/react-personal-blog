@@ -1,9 +1,9 @@
-.homepage__content {
+.homepage__bottom-content {
   display: flex;
   justify-content: space-between;
 }
 
-.homepage__content > div {
+.homepage__bottom-content > div {
   flex-basis: calc(50% - 32px);
 }
 

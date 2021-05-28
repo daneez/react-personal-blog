@@ -2,6 +2,9 @@ import Page from '../../../Page/Page';
 import PageTitle from '../../../PageTitle/PageTitle';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
+import DesignSkills from './components/DesignSkills/DesignSkill';
+import CodingSkills from './components/CodingSkill/CodingSkill';
+
 import './ResumePage.css';
 
 const ResumePage = ({ 
@@ -16,36 +19,8 @@ const ResumePage = ({
       <Experience />
     </div>
     <div className="resumePage__sub">
-      <div>
-        <h3 className="resumeSub__title">Design <span className="resumeSub__titleHighlight">Skills</span></h3>
-        <div className="skill">
-          <h4 className="skill__title">Web Design</h4>
-          <div className="skill__level skill__level--webDesign"></div>
-        </div>
-        <div className="skill">
-          <h4 className="skill__title">Graphic Design</h4>
-          <div className="skill__level skill__level--graphicDesign"></div>
-        </div>
-        <div className="skill">
-          <h4 className="skill__title">Print Design</h4>
-          <div className="skill__level skill__level--printDesign"></div>
-        </div>
-      </div>
-      <div>
-        <h3 className="resumeSub__title">Coding <span className="resumeSub__titleHighlight">Skills</span></h3>
-        <div className="skill">
-          <h4 className="skill__title">HTML Design</h4>
-          <div className="skill__level skill__level--htmlDesign"></div>
-        </div>
-        <div className="skill">
-          <h4 className="skill__title">CSS Design</h4>
-          <div className="skill__level skill__level--cssDesign"></div>
-        </div>
-        <div className="skill">
-          <h4 className="skill__title">JavaScript Design</h4>
-          <div className="skill__level skill__level--jsDesign"></div>
-        </div>
-      </div>
+      <DesignSkills />
+      <CodingSkills />
     </div>
   </Page>
 );
