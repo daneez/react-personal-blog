@@ -1,5 +1,6 @@
 .navbar__item {
   padding: 16px;
+  margin: 0 auto;
   text-decoration: none;
   color: #49515d;
   font-size: 15px;
@@ -29,5 +30,5 @@
 }
 
 .navbar__item:last-of-type {
-  padding-right: 32px;
+  /* padding-right: 32px; */
 }
