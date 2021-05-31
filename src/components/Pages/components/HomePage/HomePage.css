@@ -15,5 +15,5 @@
 
 .homepage__header-img {
   height: 300px;
-  width: 100%;
+  max-width: 100%;
 }
