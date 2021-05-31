@@ -1,6 +1,5 @@
 import './ContactTable.css';
 
-// 数据，Render 责任分离
 const DATA = [{
   key: 'residence',
   title: 'Residence',

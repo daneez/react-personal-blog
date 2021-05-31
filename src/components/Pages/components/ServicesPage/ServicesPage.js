@@ -12,6 +12,47 @@ import data_admin from './assets/data_admin.png';
 
 import './ServicesPage.css';
 
+const SERVICES = [{
+  key: 'html',
+  src: HtmlLogo,
+  name: 'HTML5'
+}, {
+  key: 'css',
+  src: CSSLogo,
+  name: 'CSS3'
+}, {
+  key: 'js',
+  src: JSLogo,
+  name: 'JavaScript'
+}, {
+  key: 'webDev',
+  src: web_dev,
+  name: 'Web Development'
+},
+{
+  key: 'projectMgt',
+  src: project_mgt,
+  name: 'Project Management'
+},  {
+  key: 'dataAdmin',
+  src: data_admin,
+  name: 'Database Administration    '
+}]
+
+const CLIENTS = [{
+  key: 'jracademy',
+  src: JRLogo,
+  name: 'JR Academy',
+}, {
+  key: 'melbrisade',
+  src: MelbLogo,
+  name: 'Melbrisade',
+}, {
+  key: 'aw',
+  src: AWLogo,
+  name: 'Async Working',
+}]
+
 const ServicesPage = ({
   active,
 }) => (
@@ -25,44 +66,14 @@ const ServicesPage = ({
         <span className="services__titleHightLight"> Services</span>
       </h3>
       <div className="services">
-        <div className="serviceItem">
+      {SERVICES.map(({key, src, name}) => (
+        <div className="serviceItem" key={key}>
           <div className="serviceItem__imageContainer">
-            <img alt="HTML5" src={HtmlLogo} className="serviceItem__image"></img>
+            <img alt="HTML5" src={src} className="serviceItem__image"></img>
           </div>
-          <h4 className="serviceItem__name">HTML5</h4>
+          <h4 className="serviceItem__name">{name}</h4>
         </div>
-        <div className="serviceItem">
-          <div className="serviceItem__imageContainer">
-            <img alt="CSS3" src={CSSLogo} className="serviceItem__image"></img>
-          </div>
-          <h4 className="serviceItem__name">CSS3</h4>
-        </div>
-        <div className="serviceItem">
-          <div className="serviceItem__imageContainer">
-            <img alt="JavaScript" src={JSLogo} className="serviceItem__image"></img>
-          </div>
-          <h4 className="serviceItem__name">JavaScript</h4>
-        </div>
-      </div>
-      <div className="services">
-        <div className="serviceItem">
-          <div className="serviceItem__imageContainer">
-            <img alt="WebDevelopment" src={web_dev} className="serviceItem__image"></img>
-          </div>
-          <h4 className="serviceItem__name">Web Development</h4>
-        </div>
-        <div className="serviceItem">
-          <div className="serviceItem__imageContainer">
-            <img alt="ProjectManagement" src={project_mgt} className="serviceItem__image"></img>
-          </div>
-          <h4 className="serviceItem__name">Project Management</h4>
-        </div>
-        <div className="serviceItem">
-          <div className="serviceItem__imageContainer">
-            <img alt="DB administration" src={data_admin} className="serviceItem__image"></img>
-          </div>
-          <h4 className="serviceItem__name">Database Administration</h4>
-        </div>
+      ))}
       </div>
     </div>
     <div className="servicesPage__clients">
@@ -70,9 +81,9 @@ const ServicesPage = ({
         Clients
       </h3>
       <div className="clients">
-        <img alt="JR Academy" src={JRLogo} className="clientItem"></img>
-        <img alt="Melbrisade" src={MelbLogo} className="clientItem"></img>
-        <img alt="Async Working" src={AWLogo} className="clientItem"></img>
+        {CLIENTS.map(({key, src, name}) => (
+          <img key={key} alt={name}  src={src} className="clientItem"></img>
+        ))}
       </div>
     </div>
   </Page>
