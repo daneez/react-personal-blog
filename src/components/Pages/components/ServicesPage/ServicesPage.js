@@ -4,7 +4,7 @@ import HtmlLogo from './assets/html5.png';
 import CSSLogo from './assets/css3.png';
 import JSLogo from './assets/js.png';
 import JRLogo from './assets/jr-academy.png';
-import MelbLogo from './assets/melbris.png';
+import NeusoftLogo from './assets/neusoft.png';
 import AWLogo from './assets/async.svg';
 import web_dev from './assets/web_dev.png';
 import project_mgt from './assets/project_mgt.png';
@@ -40,13 +40,13 @@ const SERVICES = [{
 }]
 
 const CLIENTS = [{
+  key: 'neusfot',
+  src: NeusoftLogo,
+  name: 'Neusoft',
+}, {
   key: 'jracademy',
   src: JRLogo,
   name: 'JR Academy',
-}, {
-  key: 'melbrisade',
-  src: MelbLogo,
-  name: 'Melbrisade',
 }, {
   key: 'aw',
   src: AWLogo,

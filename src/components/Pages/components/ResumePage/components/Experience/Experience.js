@@ -10,22 +10,22 @@ const Experience = () => (
           title: "Full Stack Developer",
           year: "May 2021",
           company: "Async Working",
-          description: "Using React, Redux, Spring Boot, PostgreSQL to build online working management tool for small to medium size company online users.",
+          description: "Using React, Redux, Spring Boot, PostgreSQL to build online project management tools for small to medium size company users.",
         },
         {
           key: "1",
           title: "Full Stack Developer",
-          year: "Jan 2021",
-          company: "Melbrisade",
-          description:
-            "Using React Hook, Spring Boot, PostgreSQL to build CRM system for small to medium size business owners.",
-        },
-        {
-          key: "2",
-          title: "Full Stack Developer",
           year: "Sep 2020",
           company: "JR Academy",
           description: "Using React, Redux-saga, ES6+, TypeScript, UmiJS, Ant Design, KeystoneJS, Node to build websites, online management systems.",
+        },
+        {
+          key: "2",
+          title: "Software Engineer",
+          year: "Jun 2011 - 2015",
+          company: "Neusoft Corporation",
+          description:
+            "Providing enterprise software as a service in banking and educational industries by using J2EE, Vanilla Javascript, DB2, Oracle etc.",
         },
       ]}
     />
